@@ -1,0 +1,144 @@
+body {
+    background-color: rgb(128, 127, 127);
+    padding: 0 100px;
+    
+}
+.btn {
+    background: #FF5B00;
+    background-image: -webkit-linear-gradient(top, #FF5B00, #f25b09);
+    background-image: -moz-linear-gradient(top, #FF5B00, #f25b09);
+    background-image: -ms-linear-gradient(top, #FF5B00, #f25b09);
+    background-image: -o-linear-gradient(top, #FF5B00, #f25b09);
+    background-image: linear-gradient(to bottom, #FF5B00, #f25b09);
+    -webkit-border-radius: 15;
+    -moz-border-radius: 15;
+    border-radius: 15px;
+    font-family: Arial;
+    color: #000000;
+    font-size: 15px;
+    padding: 10px 30px 10px 30px;
+    text-decoration: none;
+    border: none;
+  }
+  
+  .btn:hover {
+    background: #f57f22;
+    background-image: -webkit-linear-gradient(top, #f57f22, #f07b22);
+    background-image: -moz-linear-gradient(top, #f57f22, #f07b22);
+    background-image: -ms-linear-gradient(top, #f57f22, #f07b22);
+    background-image: -o-linear-gradient(top, #f57f22, #f07b22);
+    background-image: linear-gradient(to bottom, #f57f22, #f07b22);
+    text-decoration: none;
+  }
+  form > header {
+    border: none;
+    border-radius: 15px;
+    background-color: white;
+    color: #FF5B00;
+    padding: 10px 20px;
+    width: 300px;
+    font-size: 30px;
+    text-align: center;
+    font-weight: bolder;
+  }
+  input[type=email], input[type=password] {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #FF5B00;
+    width: 340px;
+}
+.login {
+  border: 2px solid black;
+  background-color: black;
+  border-radius: 15px;
+  width: 350px;
+  padding: 20px;
+  
+}
+/* input[placeholder=Enter-Email-Here]{ color: aqua;} */
+.login-btn {
+  background: #FF5B00;
+  background-image: -webkit-linear-gradient(top, #FF5B00, #FF5B00);
+  background-image: -moz-linear-gradient(top, #FF5B00, #FF5B00);
+  background-image: -ms-linear-gradient(top, #FF5B00, #FF5B00);
+  background-image: -o-linear-gradient(top, #FF5B00, #FF5B00);
+  background-image: linear-gradient(to bottom, #FF5B00, #FF5B00);
+  -webkit-border-radius: 15;
+  -moz-border-radius: 15;
+  border-radius: 15px;
+  font-family: Arial;
+  color: #000000;
+  font-size: 27px;
+  padding: 10px 31px 10px 30px;
+  text-decoration: none;
+  width: 350px;
+  
+}
+
+.login-btn:hover {
+  background: #ed5909;
+  background-image: -webkit-linear-gradient(top, #ed5909, #e85609);
+  background-image: -moz-linear-gradient(top, #ed5909, #e85609);
+  background-image: -ms-linear-gradient(top, #ed5909, #e85609);
+  background-image: -o-linear-gradient(top, #ed5909, #e85609);
+  background-image: linear-gradient(to bottom, #ed5909, #e85609);
+  text-decoration: none;
+}
+form p { color: white;
+text-align: center;}
+.nav-buttons a {
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+  padding: 25px 10px;
+ 
+}
+
+ 
+
+ .nav-buttons { display: flex;
+flex-direction: row;
+justify-content: space-between;} 
+
+.nav-buttons input{ background: transparent;
+border: 2px solid  #FF5B00 ;
+}
+nav form { display: inline;}
+ .login > header  { margin: 0 auto;}
+ nav h1 { color: #FF5B00;}
+ span{ color: #FF5B00 !important;}
+  main { display: flex;
+  justify-content: space-between;
+color: white;
+padding-top: 50px;}
+ .nav-buttons input { margin-top: 22px;}
+ /* ====this is for the search button in the nav bar=== */
+ .search-btn {
+  background: #FF5B00;
+  background-image: -webkit-linear-gradient(top, #FF5B00, #FF5B00);
+  background-image: -moz-linear-gradient(top, #FF5B00, #FF5B00);
+  background-image: -ms-linear-gradient(top, #FF5B00, #FF5B00);
+  background-image: -o-linear-gradient(top, #FF5B00, #FF5B00);
+  background-image: linear-gradient(to bottom, #FF5B00, #FF5B00);
+  -webkit-border-radius: 10;
+  -moz-border-radius: 10;
+  border-radius: 5px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 10px;
+  padding: 6px 20px 6px 20px;
+  text-decoration: none;
+  border: none;
+  margin-left: 0;
+}
+
+.search-btn:hover {
+  background: #ed661d;
+  background-image: -webkit-linear-gradient(top, #ed661d, #ed661d);
+  background-image: -moz-linear-gradient(top, #ed661d, #ed661d);
+  background-image: -ms-linear-gradient(top, #ed661d, #ed661d);
+  background-image: -o-linear-gradient(top, #ed661d, #ed661d);
+  background-image: linear-gradient(to bottom, #ed661d, #ed661d);
+  text-decoration: none;
+}
+input::placeholder { color: white;}
